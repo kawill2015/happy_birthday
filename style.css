@@ -1,0 +1,90 @@
+/*body {*/
+	/*background-image: url("http://vignette2.wikia.nocookie.net/rickandmorty/images/0/08/Image-3.jpeg/revision/latest?cb=20160812021835");*/
+	/*opacity: 0.6;*/
+
+/*}*/
+
+.main {
+	text-align: left;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	font-family: "Hannotate TC";
+	font-weight: bold;
+	color: yellowgreen;
+	font-size: 800%;
+	text-shadow: 2px 1px 8px gainsboro;
+	margin-left: 85px;
+
+}
+
+/*.balloon {*/
+	/*width: 100px;*/
+	/*height: 100px;*/
+	/*position: relative;*/
+	/*background-color: red;*/
+	/*animation-name: example;*/
+	/*animation-duration: 4s;*/
+	/*animation-iteration-count: infinite;*/
+/*}*/
+
+.lead {
+	font-family: Georgia;
+	font-weight: bold;
+	color: darkslategrey;
+	text-shadow: 2px 2px 12px gainsboro;
+	text-align: center;
+}
+
+p {
+	font-family: "Arial Hebrew Scholar";
+	font-weight: bold;
+	color: darkslategrey;
+	text-shadow: 2px 2px 12px gainsboro;
+	text-align: center;
+	font-size: 200%;
+}
+
+img {
+	margin-left: 85px;
+	margin-right: 65px;
+}
+
+.footer {
+	font-family: "Hannotate TC";
+	color: yellowgreen;
+	margin-left: 85px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 500%;
+	padding-right: 150px;
+	text-shadow: 2px 2px 12px gainsboro;
+}
+
+button {
+	alignment: center;
+	background-color: aquamarine;
+	padding-bottom: 50px;
+}
+
+@keyframes bday {
+	0%   {background-color: greenyellow;}
+	25%  {background-color: chartreuse;}
+	50%  {background-color: lawngreen;}
+	100% {background-color: lime;}
+}
+
+.bday {
+	width: 1100px;
+	height: 250px;
+	background-color: yellow;
+	animation-name: bday;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	margin-left: 50px;
+	margin-right: 105px;
+	border-radius: 40px;
+	padding-top: 10px;
+	box-shadow: 1px 2px 4px 3px gainsboro;
+	border: 1px solid gainsboro;
+
+}

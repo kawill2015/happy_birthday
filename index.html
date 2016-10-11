@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday!</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<style>
+	.parallax {
+		/* The image used */
+		background-image: url("IMG_2723.PNG");
+		/*//"http://vignette2.wikia.nocookie.net/rickandmorty/images/0/08/Image-3.jpeg/revision/latest?cb=20160812021835");*/
+
+		/* Set a specific height */
+		height: 500px;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+</style>
+
+
+
+<!-- Container element -->
+<div class="parallax"></div>
+
+<div class="container">
+			<div row>
+				<div class="col-sm-11">
+				<h1 class="main">Happy 30th Sam!</h1>
+				</div>
+			</div>
+</div>
+
+<button id="cake_btn" class="btn btn-default center-block">Your Special Birthday Treat!</button>
+
+<p></p>
+
+<div id="cake">
+	<div class="row">
+					<div class="col-sm-11">
+
+						<video autoplay><source src="Recordinglilbits.m4a"></video>
+						<p class="lead">A Tiny Birthday Cake That Won't Get Stuck in Your Lips!</p>
+						
+						<img src="IMG_2726 platecombined-1.jpg" alt="lilbits"/>
+
+					</div>
+	</div>
+
+	<p></p>
+
+
+
+	<div class="bday">
+
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="footer">Have A Great Birthday Sam!</h1>
+				<p class="lead">
+					Hope your birthday is filled with laughter and fun! You are a great brother! I love you!
+				</p>
+
+				<p></p>
+
+
+
+			</div>
+		</div>
+
+	</div>
+	<p></p>
+
+	<img src="IMG_2733.PNG" alt="lilbits">
+<!-- <img src= "http://vignette2.wikia.nocookie.net/rickandmorty/images/0/08/Image-3.jpeg/revision/latest?cb=20160812021835"/>
+
+<img src= "http://i.imgur.com/W2JuB9F.jpg"/> -->
+
+	<script>
+
+		$("#cake").hide();
+
+		$("#cake_btn").click(function(){
+			$("#cake").toggle();
+		});
+
+	</script>
+
+</body>
+</html>
